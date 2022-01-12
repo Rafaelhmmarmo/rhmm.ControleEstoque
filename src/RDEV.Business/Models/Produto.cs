@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace RDEV.Business.Models
 {
-    public class Produto
+    public class Produto : Entity
     {
         public Guid FornecedorId { get; set; }
         public string Nome { get; set; }
